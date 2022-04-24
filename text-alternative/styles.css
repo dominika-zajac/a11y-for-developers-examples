@@ -1,0 +1,36 @@
+#title {
+    font-size: 46px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin-left: 20px;
+}
+
+.imagesRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.example {
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+}
+
+.bunnyImage {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.instructions {
+    font-size: 26px;
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang=en>
+
+<head>
+    <meta charset=utf-8>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Alternative text examples</title>
+</head>
+
+<body>
+    <h1 id="title">Incorrect alternative text</h1>
+    <h2>Examples</h2>
+    <div class="imagesRow">
+        <div class="example">
+            <img src="../assets/bunny.png" class="bunnyImage">
+            Missing alt text:
+        </div>
+        <div class="example">
+            <img src="../assets/bunny.png" alt="" class="bunnyImage">
+            Empty string in alt param
+        </div>
+        <div class="example">
+            <img src="../assets/bunny.png" aria-label="title" class="bunnyImage">
+            Id of element in aria-label
+        </div>
+        <div class="example">
+            <img src="../assets/bunny.png" aria-labelledby="incorrect" class="bunnyImage">
+            Incorrect Id in aria-labelledby
+        </div>
+    </div>
+    <h2>Instructions:</h2>
+    <ol class="instructions">
+        <li>Use tools to find a problem</li>
+        <ul>
+            <li>Open Chrome DevTools and inspect elements</li>
+            <li>Perform Lighthouse audit</li>
+            <li>Perform Web Insights for Web audit</li>
+        </ul>
+        <li>Try to fix all found issues</li>
+        <li>Perform action from step 1 again to confirm your fixes</li>
+    </ol>
+</body>
+
+</html>
