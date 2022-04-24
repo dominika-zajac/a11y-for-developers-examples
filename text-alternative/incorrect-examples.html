@@ -10,34 +10,44 @@
 </head>
 
 <body>
-    <h1 id="title">Incorrect alternative text</h1>
+    <h1 id="titleId">Incorrect alternative text</h1>
     <h2>Examples</h2>
     <div class="imagesRow">
         <div class="example">
-            <img src="../assets/bunny.png" class="bunnyImage">
+            <img src="https://raw.githubusercontent.com/dominika-zajac/a11y-for-developers-examples/main/assets/bunny.png"
+                class="bunnyImage">
             Missing alt text:
         </div>
         <div class="example">
-            <img src="../assets/bunny.png" alt="" class="bunnyImage">
+            <img src="https://raw.githubusercontent.com/dominika-zajac/a11y-for-developers-examples/main/assets/bunny.png"
+                alt="" class="bunnyImage">
             Empty string in alt param
         </div>
         <div class="example">
-            <img src="../assets/bunny.png" aria-label="title" class="bunnyImage">
+            <img src="https://raw.githubusercontent.com/dominika-zajac/a11y-for-developers-examples/main/assets/bunny.png"
+                aria-label="" class="bunnyImage">
+            Empty string in aria-label param
+        </div>
+        <div class="example">
+            <img src="https://raw.githubusercontent.com/dominika-zajac/a11y-for-developers-examples/main/assets/bunny.png"
+                aria-label="titleId" class="bunnyImage">
             Id of element in aria-label
         </div>
         <div class="example">
-            <img src="../assets/bunny.png" aria-labelledby="incorrect" class="bunnyImage">
+            <img src="https://raw.githubusercontent.com/dominika-zajac/a11y-for-developers-examples/main/assets/bunny.png"
+                aria-labelledby="incorrect" class="bunnyImage">
             Incorrect Id in aria-labelledby
         </div>
     </div>
     <h2>Instructions:</h2>
     <ol class="instructions">
-        <li>Use tools to find a problem</li>
-        <ul>
-            <li>Open Chrome DevTools and inspect elements</li>
-            <li>Perform Lighthouse audit</li>
-            <li>Perform Web Insights for Web audit</li>
-        </ul>
+        <li>Use tools to find a problemx
+            <ul>
+                <li>Open Chrome DevTools and inspect elements</li>
+                <li>Perform Lighthouse audit</li>
+                <li>Perform Web Insights for Web audit</li>
+            </ul>
+        </li>
         <li>Try to fix all found issues</li>
         <li>Perform action from step 1 again to confirm your fixes</li>
     </ol>
