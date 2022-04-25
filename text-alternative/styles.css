@@ -23,6 +23,7 @@ h2 {
     flex-direction: column;
     width: 300px;
     align-items: center;
+    text-align: center;
 }
 
 .bunnyImage {

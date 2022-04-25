@@ -1,0 +1,56 @@
+#titleId {
+    font-size: 46px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.imagesRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.example {
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+}
+
+.section-example {
+    height: 120px;
+    width: 300px;
+    background-color: darkgreen;
+    color: #8fab64;
+    font-size: 20px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+button {
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    color: cornflowerblue;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-color: cornflowerblue;
+}
+
+.button-hvr {
+    background-color: white;
+    color: black;
+}
+
+.button-hvr:hover {
+    background-color: #4c4949;
+}
+
+.instructions {
+    font-size: 26px;
+}
