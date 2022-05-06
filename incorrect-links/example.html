@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html lang=en>
+
+<head>
+    <meta charset=utf-8>
+    <script src="./script.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Incorrect links</title>
+</head>
+
+<body>
+    <h1 id="titleId">Incorrect links</h1>
+    <h2>Examples</h2>
+    <div class="row">
+        <ul class="link-list">
+            <li class="example">
+                <a href="/">Learn more about a11y</a>
+            </li>
+            <li class="example">
+                <a href="/" target="_blank">
+                    Learn more about a11y
+                    <div class="screen-readers-only">Link is opening in the new tab</div>
+                </a>
+            </li>
+            <li class="example">
+                <a href="/">Link</a>
+            </li>
+            <li class="example">
+                <a href="/" target="_blank">
+                    Learn more about a11y
+                </a>
+            </li>
+            <li class="example">
+                <a href="/">
+                    <img src="https://raw.githubusercontent.com/dominika-zajac/a11y-for-developers-examples/main/assets/bunny.png"
+                        alt="" class="bunny-image">
+                </a>
+            </li>
+            <li class="example">
+                <a href="/" tabindex="-1">Learn more about a11y</a>
+            </li>
+        </ul>
+    </div>
+    <h2>Instructions:</h2>
+    <ol class="instructions">
+        <li>Use tools to find a problemx
+            <ul>
+                <li>Perform Lighthouse audit</li>
+                <li>Perform Web Insights for Web audit</li>
+            </ul>
+        </li>
+        <li>Test manually
+            <ul>
+                <li>Try to access all links via keyboard navigation</li>
+                <li>Check page using the screen reader</li>
+            </ul>
+        </li>
+        <li>Try to fix all found issues</li>
+        <li>Perform action from steps 1 and 2 again to confirm your fixes</li>
+    </ol>
+</body>
+
+</html>
